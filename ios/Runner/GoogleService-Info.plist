@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>23340623187-ovkddsst2i4s9o04dat95rrtb9fntu50.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.23340623187-ovkddsst2i4s9o04dat95rrtb9fntu50</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>23340623187-h9hqe2suq5cb4sbspmlqgen6d408q7ca.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBR3epTTYpjRyPxGO6PQvYl_N5DBi5HIwk</string>
+	<key>GCM_SENDER_ID</key>
+	<string>23340623187</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.jddeep.monumento</string>
+	<key>PROJECT_ID</key>
+	<string>monumento-277103</string>
+	<key>STORAGE_BUCKET</key>
+	<string>monumento-277103.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:23340623187:ios:847d10c520899abff8eda6</string>
+	<key>DATABASE_URL</key>
+	<string>https://monumento-277103.firebaseio.com</string>
+</dict>
+</plist>

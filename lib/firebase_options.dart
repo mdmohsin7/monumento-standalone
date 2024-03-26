@@ -26,10 +26,7 @@ class DefaultFirebaseOptions {
       case TargetPlatform.android:
         return android;
       case TargetPlatform.iOS:
-        throw UnsupportedError(
-          'DefaultFirebaseOptions have not been configured for macos - '
-          'you can reconfigure this by running the FlutterFire CLI again.',
-        );
+        return ios;
       case TargetPlatform.macOS:
         throw UnsupportedError(
           'DefaultFirebaseOptions have not been configured for macos - '
@@ -53,10 +50,23 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyAxo38aqezeOCoUrpuEwBqdVG5kZtfqCSo',
-    appId: '1:1086075256479:android:5932b772646ed82522acaa',
-    messagingSenderId: '274759922463',
-    projectId: 'monumento-5bdeb',
-    storageBucket: 'monumento-5bdeb.appspot.com',
+    apiKey: 'AIzaSyAO7RnXF0crJ_t8SHRMNXKwbG2477ZcfTA',
+    appId: '1:23340623187:android:7054148e8a1dee1ff8eda6',
+    messagingSenderId: '23340623187',
+    projectId: 'monumento-277103',
+    databaseURL: 'https://monumento-277103.firebaseio.com',
+    storageBucket: 'monumento-277103.appspot.com',
+  );
+
+  static const FirebaseOptions ios = FirebaseOptions(
+    apiKey: 'AIzaSyBR3epTTYpjRyPxGO6PQvYl_N5DBi5HIwk',
+    appId: '1:23340623187:ios:847d10c520899abff8eda6',
+    messagingSenderId: '23340623187',
+    projectId: 'monumento-277103',
+    databaseURL: 'https://monumento-277103.firebaseio.com',
+    storageBucket: 'monumento-277103.appspot.com',
+    androidClientId: '23340623187-h9hqe2suq5cb4sbspmlqgen6d408q7ca.apps.googleusercontent.com',
+    iosClientId: '23340623187-ovkddsst2i4s9o04dat95rrtb9fntu50.apps.googleusercontent.com',
+    iosBundleId: 'com.jddeep.monumento',
   );
 }
